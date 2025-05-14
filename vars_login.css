@@ -1,0 +1,18 @@
+    /* Figma Styles of your File */
+    :root {
+        /* Colors */
+        /* Fonts */
+        /* Effects */
+        --inner-shadow-box-shadow: inset 4px -40px 80px 25px rgba(29, 43, 86, 0.47);
+        --variable-collection-vermelho-2: rgba(139, 0, 0, 1);
+        --variable-collection-vermelho-1: rgba(220, 20, 60, 1);
+        --variable-collection-azul-2: rgba(25, 25, 112, 1);
+        --variable-collection-azul-1: rgba(65, 105, 225, 1);
+        --variable-collection-preto: rgba(13, 12, 29, 1);
+        --variable-collection-branco: rgba(244, 255, 248, 1);
+        --variable-collection-reeze-white: rgba(244, 255, 248, 0);
+        --variable-collection-tetse: rgba(244, 255, 248, 0);
+        --variable-collection-preto-1: rgba(13, 12, 29, 1);
+    }
+
+   /*        <a href=""><div class="boto-login"><div class="text-wrapper-4">Login</div></div></a>          */

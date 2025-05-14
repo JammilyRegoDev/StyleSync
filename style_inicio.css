@@ -1,0 +1,147 @@
+.group-48,
+.group-48 * {
+  box-sizing: border-box;
+}
+.group-48 {
+  height: 1080px;
+  position: relative;
+}
+.tela-sele-o-de-tipo-de-conta {
+  background: #0d0c1d;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.o-que-busca-em-nosso-site {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayRegular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 469px;
+  top: 256px;
+}
+.bot-es-sal-o-cliente {
+  display: flex;
+  flex-direction: row;
+  gap: 405px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 258px;
+  top: 603px;
+}
+.bot-o-sal-o {
+  flex-shrink: 0;
+  width: 500px;
+  height: 300px;
+  position: static;
+}
+.corpo-bot-o-sal-o {
+  background: rgba(220, 20, 60, 0.68);
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.informa-es-do-bot-o-sal-o {
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 136px;
+  top: 38px;
+}
+.icon-tesoura {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 90.7%;
+  height: 100%;
+  position: absolute;
+  right: 0.8%;
+  left: 8.5%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.administrar-meu-sal-o {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: , sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+}
+.group-50 {
+  flex-shrink: 0;
+  width: 500px;
+  height: 300px;
+  position: static;
+}
+.bot-o-cliente {
+  width: 500px;
+  height: 300px;
+  position: static;
+}
+.corpo-bot-o-cliente {
+  background: rgba(65, 105, 225, 0.5);
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 905px;
+  top: 0px;
+}
+.informa-es-do-bot-o-cliente {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1000px;
+  top: 54px;
+}
+.group-49 {
+  flex-shrink: 0;
+  width: 101px;
+  height: 100px;
+  position: static;
+}
+.icon-cabelo {
+  display: flex;
+  flex-direction: row;
+  gap: 53px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 105px;
+  top: 0px;
+}
+.man-hair-beauty-salon-svgrepo-com-1-1-1-1 {
+  flex-shrink: 0;
+  width: 101px;
+  height: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.encontrar-o-melhor-cabelereiro {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: , sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+}

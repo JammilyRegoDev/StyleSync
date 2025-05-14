@@ -1,0 +1,589 @@
+.tela-inicial,
+.tela-inicial * {
+  box-sizing: border-box;
+}
+
+.produto-container{
+  width: 100%;
+  justify-content: space-around;
+}
+
+.tela-inicial {
+  background: var(--preto, #0d0c1d);
+  height: 4320px;
+  position: relative;
+  overflow: hidden;
+}
+.logo-ofc-3 {
+  width: 398px;
+  height: 262px;
+  position: absolute;
+  left: 747px;
+  top: 511px;
+  object-fit: cover;
+}
+.frame-137 {
+  display: flex;
+  flex-direction: row;
+  gap: 1208px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 65px;
+  top: 0px;
+}
+.home {
+  flex-shrink: 0;
+  width: 60px;
+  height: 84.07px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-135 {
+  display: flex;
+  flex-direction: row;
+  gap: 124px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.sobre {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+.cliente {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+.profissional {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+.rectangle-4 {
+  background: var(--branco, #f4fff8);
+  width: 1920px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 91px;
+}
+.pensou-agendou-cortou {
+  color: var(--branco, #f4fff8);
+  text-align: right;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  position: absolute;
+  left: 610px;
+  top: 324px;
+  width: 700px;
+  height: 129px;
+}
+.a-sua-ferramenta-para-organiza-o-de-hor-rios-e-agendamentos {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayRegular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 565px;
+  top: 409px;
+  width: 791px;
+  height: 129px;
+}
+.vector {
+  width: 1.22%;
+  height: 0.64%;
+  position: absolute;
+  right: 31%;
+  left: 67.78%;
+  bottom: 84.94%;
+  top: 14.42%;
+  transform: translate(-13.54px, 2.17px);
+  transform: scaleX(-1);
+  overflow: visible;
+  
+}
+.vector2 {
+  width: 1.25%;
+  height: 0.62%;
+  position: absolute;
+  right: 34.43%;
+  left: 64.32%;
+  bottom: 82.82%;
+  top: 16.56%;
+  transform: translate(1.42px, -0.98px);
+  overflow: visible;
+  
+}
+.vector3 {
+  width: 1.2%;
+  height: 0.65%;
+  position: absolute;
+  right: 35.11%;
+  left: 63.7%;
+  bottom: 86.61%;
+  top: 12.73%;
+  transform: translate(3.28px, -11.41px);
+  overflow: visible;
+  transform: scaleX(-1);
+}
+.vector4 {
+  width: 1.2%;
+  height: 0.65%;
+  position: absolute;
+  right: 69.06%;
+  left: 29.74%;
+  bottom: 84.44%;
+  top: 14.91%;
+  transform: translate(3.3px, -11.17px);
+  overflow: visible;
+  
+}
+.vector5 {
+  width: 1.2%;
+  height: 0.65%;
+  position: absolute;
+  right: 69.06%;
+  left: 29.74%;
+  bottom: 84.44%;
+  top: 14.91%;
+  transform: translate(3.3px, -11.17px);
+  overflow: visible;
+  
+}
+.vector6 {
+  width: 1.25%;
+  height: 0.62%;
+  position: absolute;
+  right: 66.28%;
+  left: 32.47%;
+  bottom: 82.82%;
+  top: 16.56%;
+  transform: translate(1.42px, -0.98px);
+  overflow: visible;
+  
+}
+.vector7 {
+  width: 1.21%;
+  height: 0.65%;
+  position: absolute;
+  right: 65.51%;
+  left: 33.28%;
+  bottom: 86.9%;
+  top: 12.45%;
+  transform: translate(-15px, 2.37px);
+  overflow: visible;
+}
+.sobre-o-nosso-site {
+  color: var(--branco, #f4fff8);
+  text-align: right;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  position: absolute;
+  left: 718px;
+  top: 1250px;
+}
+.clientes {
+  color: var(--branco, #f4fff8);
+  text-align: right;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  position: absolute;
+  left: 870px;
+  top: 2278px;
+}
+.bem-vindo-ao-stylesync-a-plataforma-definitiva-para-barbeiros-que-buscam-simplificar-e-aprimorar-a-gest-o-de-seus-hor-rios {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 585px;
+  top: 1351px;
+  width: 791px;
+  height: 129px;
+}
+.bem-vindo-ao-stylesync-a-plataforma-definitiva-para-barbeiros-que-buscam-simplificar-e-aprimorar-a-gest-o-de-seus-hor-rios-span {
+  color: var(--branco, #f4fff8);
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+}
+.bem-vindo-ao-stylesync-a-plataforma-definitiva-para-barbeiros-que-buscam-simplificar-e-aprimorar-a-gest-o-de-seus-hor-rios-span2 {
+  color: var(--vermelho-1, #dc143c);
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+    letter-spacing: -3px;
+}
+.bem-vindo-ao-stylesync-a-plataforma-definitiva-para-barbeiros-que-buscam-simplificar-e-aprimorar-a-gest-o-de-seus-hor-rios-span3 {
+  color: var(--branco, #f4fff8);
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: -2.1px;
+}
+.bem-vindo-ao-stylesync-a-plataforma-definitiva-para-barbeiros-que-buscam-simplificar-e-aprimorar-a-gest-o-de-seus-hor-rios-span4 {
+  color: var(--azul-1, #4169e1);
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+.bem-vindo-ao-stylesync-a-plataforma-definitiva-para-barbeiros-que-buscam-simplificar-e-aprimorar-a-gest-o-de-seus-hor-rios-span5 {
+  color: var(--branco, #f4fff8);
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+}
+.bem-vindo-ao-stylesync-a-plataforma-definitiva-para-barbeiros-que-buscam-simplificar-e-aprimorar-a-gest-o-de-seus-hor-rios-span6 {
+  color: var(--branco, #f4fff8);
+  font-family: "NotoSans-DisplayRegular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+}
+.diga-adeus-s-confus-es-de-agendamento-e-s-sobreposi-es-de-hor-rios-com-o-stylesync-voc-pode-organizar-facilmente-os-hor-rios-de-seus-clientes-em-um-calend-rio-intuitivo {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 322px;
+  top: 1752px;
+  width: 487px;
+  height: 129px;
+}
+.nosso-sistema-simplifica-o-agendamento-para-voc-e-seus-clientes-com-apenas-alguns-cliques-seus-clientes-podem-reservar-hor-rios-dispon-veis-diretamente-do-conforto-de-seus-computadores {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 1117px;
+  top: 1747.7px;
+  width: 479px;
+  height: 129px;
+}
+.laptop-2 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 1324px;
+  top: 1651.7px;
+  overflow: visible;
+}
+.hourglass-split-2 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 542px;
+  top: 1652px;
+  overflow: hidden;
+}
+.hourglass-split-2-1-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.o-que-o-style-sync-oferece-para-o-cliente {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 585px;
+  top: 2380px;
+  width: 791px;
+  height: 129px;
+}
+.a-p-gina-de-cliente-da-style-sync-um-local-onde-os-usu-rios-podem-descobrir-barbearias-e-profissionais-de-beleza-masculina-ler-avalia-es-e-agendar-servi-os-ela-oferece-uma-maneira-f-cil-e-organizada-de-encontrar-e-reservar-compromissos-com-lembretes-teis-para-que-os-clientes-n-o-percam-suas-marca-es {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 585px;
+  top: 2857px;
+  width: 791px;
+  height: 155px;
+}
+.a-p-gina-de-cliente-da-style-sync-um-local-onde-os-usu-rios-podem-descobrir-barbearias-e-profissionais-de-beleza-masculina-ler-avalia-es-e-agendar-servi-os-ela-oferece-uma-maneira-f-cil-e-organizada-de-encontrar-e-reservar-compromissos-com-lembretes-teis-para-que-os-clientes-n-o-percam-suas-marca-es-span {
+  color: var(--branco, #f4fff8);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+.a-p-gina-de-cliente-da-style-sync-um-local-onde-os-usu-rios-podem-descobrir-barbearias-e-profissionais-de-beleza-masculina-ler-avalia-es-e-agendar-servi-os-ela-oferece-uma-maneira-f-cil-e-organizada-de-encontrar-e-reservar-compromissos-com-lembretes-teis-para-que-os-clientes-n-o-percam-suas-marca-es-span2 {
+  color: var(--branco, #f4fff8);
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.vector9 {
+  width: 1.2%;
+  height: 0.65%;
+  position: absolute;
+  right: 60.52%;
+  left: 38.28%;
+  bottom: 38.1%;
+  top: 61.25%;
+  transform: translate(3.3px, -11.17px);
+  overflow: visible;
+  
+}
+.vector10 {
+  width: 1.25%;
+  height: 0.62%;
+  position: absolute;
+  right: 57.74%;
+  left: 41.01%;
+  bottom: 36.48%;
+  top: 62.9%;
+  transform: translate(1.42px, -0.98px);
+  overflow: visible;
+  
+}
+.vector11 {
+  width: 1.21%;
+  height: 0.65%;
+  position: absolute;
+  right: 56.97%;
+  left: 41.82%;
+  bottom: 40.56%;
+  top: 58.8%;
+  transform: translate(-15px, 2.37px);
+  overflow: visible;
+  
+}
+
+.vector13 {
+  width: 1.2%;
+  height: 0.65%;
+  position: absolute;
+  right: 59.48%;
+  left: 39.32%;
+  bottom: 20.88%;
+  top: 78.47%;
+  transform: translate(3.3px, -11.17px);
+  overflow: visible;
+  
+}
+.vector14 {
+  width: 1.25%;
+  height: 0.62%;
+  position: absolute;
+  right: 56.69%;
+  left: 42.06%;
+  bottom: 19.25%;
+  top: 80.13%;
+  transform: translate(1.42px, -0.98px);
+  overflow: visible;
+}
+.vector15 {
+  width: 1.21%;
+  height: 0.65%;
+  position: absolute;
+  right: 55.93%;
+  left: 42.86%;
+  bottom: 23.34%;
+  top: 76.02%;
+  transform: translate(-15px, 2.37px);
+  overflow: visible;
+}
+.vector16 {
+  width: 1.22%;
+  height: 0.64%;
+  position: absolute;
+  right: 35.48%;
+  left: 63.3%;
+  bottom: 38.41%;
+  top: 60.94%;
+  transform: translate(-13.54px, 2.17px);
+  overflow: visible;
+  transform: scaleX(-1);
+}
+.vector17 {
+  width: 1.25%;
+  height: 0.62%;
+  position: absolute;
+  right: 38.91%;
+  left: 59.84%;
+  bottom: 36.29%;
+  top: 63.08%;
+  transform: translate(1.42px, -0.98px);
+  overflow: visible;
+}
+.vector18 {
+  width: 1.2%;
+  height: 0.65%;
+  position: absolute;
+  right: 39.59%;
+  left: 59.22%;
+  bottom: 40.08%;
+  top: 59.26%;
+  transform: translate(3.28px, -11.41px);
+  overflow: visible;
+  transform: scaleX(-1);
+}
+.vector19 {
+  width: 1.22%;
+  height: 0.64%;
+  position: absolute;
+  right: 36.99%;
+  left: 61.79%;
+  bottom: 21.29%;
+  top: 78.07%;
+  transform: translate(-13.54px, 2.17px);
+  overflow: visible;
+  transform: scaleX(-1);
+}
+.vector20 {
+  width: 1.25%;
+  height: 0.62%;
+  position: absolute;
+  right: 40.42%;
+  left: 58.33%;
+  bottom: 19.16%;
+  top: 80.21%;
+  transform: translate(1.42px, -0.98px);
+  overflow: visible;
+  
+}
+.vector21 {
+  width: 1.2%;
+  height: 0.65%;
+  position: absolute;
+  right: 41.1%;
+  left: 57.71%;
+  bottom: 22.96%;
+  top: 76.39%;
+  transform: translate(3.28px, -11.41px);
+  overflow: visible;
+  transform: scaleX(-1);
+}
+.profissionais {
+  color: var(--branco, #f4fff8);
+  text-align: right;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  position: absolute;
+  left: 795px;
+  top: 3564px;
+  width: 362px;
+  height: 96px;
+}
+.o-que-o-style-sync-oferece-para-os-profissionais {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 580px;
+  top: 3678px;
+  width: 791px;
+  height: 129px;
+}
+.shop-1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 933px;
+  top: 3336px;
+  overflow: visible;
+}
+.journal-check-1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 524px;
+  top: 3827px;
+  overflow: visible;
+}
+.o-style-sync-oferece-aos-barbeiros-uma-maneira-simplificada-e-organizada-de-gerenciar-seus-agendamentos-com-a-plataforma-os-profissionais-podem-visualizar-facilmente-sua-agenda-adicionar-ou-alterar-hor-rios-e-manter-se-atualizados-sobre-os-compromissos-do-dia {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 311px;
+  top: 3955px;
+  width: 488px;
+  height: 213px;
+}
+.atrav-s-do-style-sync-os-barbeiros-t-m-acesso-a-avalia-es-e-feedback-dos-clientes-de-forma-transparente-e-direta-isso-permite-que-os-profissionais-acompanhem-sua-reputa-o-online-e-melhorem-constantemente-seus-servi-os-com-base-nas-opini-es-dos-clientes-ajudando-a-atrair-mais-clientes-satisfeitos {
+  color: var(--branco, #f4fff8);
+  text-align: center;
+  font-family: "NotoSans-DisplayMedium", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  left: 1162px;
+  top: 3955px;
+  width: 487px;
+  height: 129px;
+}
+.star-7 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 1376px;
+  top: 3827px;
+  overflow: visible;
+}
+.group-53-1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 905px;
+  top: 2566px;
+  object-fit: cover;
+}
+
+.parte-dele{
+  background-color: rgba(220, 20, 60, 1);
+  border-radius: 4px;
+}
+
+#Botao{
+  background-color: var(--variable-collection-vermelho-1);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;   
+  font-family: "Noto Sans-ExtraBold", Helvetica;
+  left: 870px;
+  top: 4200px;
+  width: 200px;
+  height: 30px;
+}
+

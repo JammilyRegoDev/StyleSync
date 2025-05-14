@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+  <link rel="shortcut icon" type="imagex/png" href="home.png">
+  <link rel="stylesheet" href="./vars_login.css">
+  <link rel="stylesheet" href="./style_login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select, h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: none;
+   text-decoration: none;
+   appearance: none;
+   background: none;
+   
+   -webkit-font-smoothing: antialiased;
+   }
+   
+   </style> 
+</head>
+<body>
+  <div class="tela-de-login">
+    <img class="logo-ofc-2" src="logo ofc.png"/>
+    <form action="#" method="get">
+    <div class="email">
+      <div class="e-mail"><label for="email">
+        <input type="email" id="email" required placeholder="E-mail" size="110" class="meu_input">
+      </label></div>
+      <div class="rectangle-1"></div>
+    </div>
+    <div class="senha">
+      <div class="senha2">
+        <div class="eye">
+        <label for="senha">
+            <input type="password" id="senha" required placeholder="Senha" minlength="8" maxlength="20" size="110" class="meu_input">
+          </label>
+          <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarsenha()"></i>
+        </div>
+      </div>
+      <div class="rectangle-2"></div>
+    </div> 
+    <div class="frame-45">
+      <div class="frame-44"><a href="#">
+        <div class="esqueci-minha-senha"><strong>Esqueci minha senha</strong></div>
+      </a></div>
+        <div class="link"><a href="#"><div class="boto-login"><div class="text-wrapper-4"><strong><input type="submit" value="Login" id="loginjef"></strong></div></div></a></div>
+    </div>
+    </form>
+    <div class="cabe-alho2">
+      <img class="home" src="home.png"/>
+      <div class="menus">
+        <div class="sobre"><a href="index_sobre.html" style="color: white; text-decoration: none;">Sobre</a></div>
+        <div class="cliente"><a href="index_sobre.html" style="color: white; text-decoration: none;">Cliente</a></div>
+        <div class="profissional"><a href="index_sobre.html" style="color: white; text-decoration: none;">Profissional</a></div>
+      </div>
+    </div>
+    <div class="rectangle-3"></div>
+    <div class="frame-110"><a href="index_inicio.html">
+      <img class="group-41" src="teste.svg" />
+      <div class="frame-109">
+        <div class="frame-108">
+          <div class="icon-tesoura">
+            <img class="group" src="icon_tesoura.svg" />
+          </div>
+          <div class="frame-107">
+            <div class="n-o-tem-uma-conta"><strong>Não tem uma conta?</strong></div>
+            <div class="frame-452">
+              <div class="cadastre-se"><strong>Cadastre-se</strong></div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="arrow-left-double-line-1-2"
+          src="arrow-left-double-line.svg"
+        />
+      </div>
+    </a>
+    </div>
+  </div>
+
+  <script src="maine.js"></script>
+</body>
+</html>

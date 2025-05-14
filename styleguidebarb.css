@@ -1,0 +1,13 @@
+:root {
+    --variable-collection-vermelho-2: rgba(139, 0, 0, 1);
+    --variable-collection-vermelho-1: rgba(220, 20, 60, 1);
+    --variable-collection-azul-2: rgba(25, 25, 112, 1);
+    --variable-collection-azul-1: rgba(65, 105, 225, 1);
+    --variable-collection-preto: rgba(13, 12, 29, 1);
+    --variable-collection-branco: rgba(244, 255, 248, 1);
+    --variable-collection-reeze-white: rgba(244, 255, 248, 0);
+    --variable-collection-tetse: rgba(244, 255, 248, 0);
+    --variable-collection-preto-1: rgba(13, 12, 29, 1);
+    --variable-collection-azul-3: rgba(39, 51, 85, 1);
+  }
+  

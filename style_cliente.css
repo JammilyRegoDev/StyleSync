@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.tela-cadastro {
+  background-color: #0d0c1d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100hv;
+  position: absolute;
+}
+
+.tela-cadastro .overlap-group-wrapper {
+  background-color: var(--variable-collection-preto);
+  width: 1920px;
+  height: 1080px;
+}
+
+.tela-cadastro .overlap-group {
+  position: relative;
+  height: 820px;
+}
+
+.tela-cadastro .cabealho {
+  position: absolute;
+  width: 1920px;
+  height: 93px;
+  top: 12px;
+  left: 0;
+}
+
+
+.tela-cadastro .div {
+  display: inline-flex;
+  align-items: center;
+  gap: 1208px;
+  position: absolute;
+  top: 0;
+  left: 65px;
+}
+
+.tela-cadastro .home {
+  position: relative;
+  width: 60px;
+  height: 84.07px;
+  object-fit: cover;
+}
+
+.tela-cadastro .menus {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 70px;
+  position: relative;
+  right: 25;
+}
+
+.inputBox{
+    top: 300px;
+    background-color: rgba(39, 51, 85, 1);
+    padding: 15px;
+    width: 1200px;
+    flex-direction: column;
+    height: 20px;
+    border-radius: 8px;
+
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  background-color: rgba(39, 51, 85, 1); 
+  border: 1px solid rgba(39, 51, 85, 1);
+  padding: 4px; /* Espaçamento interno */
+  font-size: 12px; /* Tamanho da fonte */
+  border: none; 
+  border-bottom: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+  height: 8px;
+  color:#ffffff;
+  overflow: normal;
+  width: 500px;
+  }
+
+  /* Altera a cor de fundo e a cor do texto da caixa de senha */
+input[type="password"] {
+  background-color: rgba(39, 51, 85, 1); /* Cor de fundo */
+  color: #ffffff;           /* Cor do texto */
+  border: 1px solid rgba(244, 255, 248, 0);
+  padding: 2px;           
+  border-radius: 5px;      
+  width: 500px;
+  outline: none;
+}
+
+
+
+
+.input-Line{
+   top: 270px;
+   background-color: #ffffff;
+   padding: 15px;
+   width: 1200px;
+   flex-direction: column;
+   height: 20px;
+   border-radius: 8px;
+ 
+}
+
+.nomes-etc{
+   color: #ffffff;
+   font-size: 18px;
+   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+   margin-left: -14px;
+   margin-bottom: -10px;
+}
+
+.tela-cadastro .text-wrapper {
+  position: relative;
+  margin-top: -1px;
+  font-family: "Noto Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  background: none;
+}
+
+.tela-cadastro .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 2px;
+  top: 91px;
+  left: 0;
+  background-color: var(--variable-collection-branco);
+}
+
+.tela-cadastro .logo-ofc {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top:150px;
+  left: 800px;
+  object-fit: cover;
+}
+
+.tela-cadastro .frame {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1178px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 23px 23px;
+  position: absolute;
+  top: 345px;
+  left: 375px;
+}
+
+.tela-cadastro .frame-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1178px;
+  align-items: flex-end;
+  gap: 16px 16px;
+  position: relative;
+}
+
+.tela-cadastro .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tela-cadastro .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans-DisplaySemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-cadastro .div-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px 1020px 17px 12px;
+  position: relative;
+  background-color: var(--variable-collection-azul-3);
+  border-radius: 8px;
+  width: 200px;
+  
+}
+
+.tela-cadastro .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Noto Sans-DisplayRegular", Helvetica;
+  font-weight: 400;
+  color: rgb(201, 47, 47);
+  font-size: 14px;
+  letter-spacing: 6;
+  line-height: normal;
+}
+
+.text-wrapper-4 {
+  background-color: rgba(220, 20, 60, 1);
+  color: rgba(220, 20, 60, 1);
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 1117px;
+  margin-top: -40px;
+  text-decoration: none;
+  
+}
+
+.link #cadast{
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+} 
+
+input,
+textarea {
+    padding: 5px;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    outline: 0;
+    box-shadow:none;
+    border-color: transparent;
+}
+
+::-webkit-input-placeholder {
+   color: #ffffff7e;
+}
+
+:-moz-placeholder {
+   color: rgb(255, 255, 255);
+}
+
+::-moz-placeholder {
+   color: rgb(255, 255, 255);  
+}
+
+:-ms-input-placeholder {  
+   color: rgb(255, 255, 255);  
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgba(39, 51, 85, 1) inset;
+}
+
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: rgb(255, 255, 255) !important;
+}
+
+.eye i{
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: -1%;
+  top: 272px;
+  color:  #f4fff84f;
+
+}
